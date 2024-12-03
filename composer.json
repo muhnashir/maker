@@ -1,0 +1,25 @@
+{
+    "name": "muhnashir/maker",
+    "description": "Create a simple artisan",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "muhnashir",
+            "email": "muhammadnashir9@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nashirall\\Maker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Muhnashir\\Maker\\Src\\PackageServiceProvider"
+            ]
+        }
+    }
+}
